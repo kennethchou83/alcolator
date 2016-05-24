@@ -15,6 +15,8 @@
 		46F09DCF1CF2B5F30037596D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F09DCD1CF2B5F30037596D /* LaunchScreen.storyboard */; };
 		46F09DDA1CF2B5F30037596D /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F09DD91CF2B5F30037596D /* AlcolatorTests.m */; };
 		46F09DE51CF2B5F30037596D /* AlcolatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F09DE41CF2B5F30037596D /* AlcolatorUITests.m */; };
+		46F09DF41CF408C50037596D /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F09DF31CF408C50037596D /* WhiskeyViewController.m */; };
+		46F09DF71CF50ABD0037596D /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F09DF61CF50ABD0037596D /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		46F09DE01CF2B5F30037596D /* AlcolatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F09DE41CF2B5F30037596D /* AlcolatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorUITests.m; sourceTree = "<group>"; };
 		46F09DE61CF2B5F30037596D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F09DF21CF408C50037596D /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		46F09DF31CF408C50037596D /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
+		46F09DF51CF50ABD0037596D /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		46F09DF61CF50ABD0037596D /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				46F09DC31CF2B5F30037596D /* AppDelegate.m */,
 				46F09DC51CF2B5F30037596D /* ViewController.h */,
 				46F09DC61CF2B5F30037596D /* ViewController.m */,
+				46F09DF21CF408C50037596D /* WhiskeyViewController.h */,
+				46F09DF31CF408C50037596D /* WhiskeyViewController.m */,
+				46F09DF51CF50ABD0037596D /* MainMenuViewController.h */,
+				46F09DF61CF50ABD0037596D /* MainMenuViewController.m */,
 				46F09DC81CF2B5F30037596D /* Main.storyboard */,
 				46F09DCB1CF2B5F30037596D /* Assets.xcassets */,
 				46F09DCD1CF2B5F30037596D /* LaunchScreen.storyboard */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46F09DC71CF2B5F30037596D /* ViewController.m in Sources */,
+				46F09DF41CF408C50037596D /* WhiskeyViewController.m in Sources */,
 				46F09DC41CF2B5F30037596D /* AppDelegate.m in Sources */,
 				46F09DC11CF2B5F30037596D /* main.m in Sources */,
+				46F09DF71CF50ABD0037596D /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				46F09DEB1CF2B5F30037596D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F09DEC1CF2B5F30037596D /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				46F09DEE1CF2B5F30037596D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F09DEF1CF2B5F30037596D /* Build configuration list for PBXNativeTarget "AlcolatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				46F09DF11CF2B5F30037596D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
